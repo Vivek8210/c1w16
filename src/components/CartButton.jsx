@@ -8,7 +8,7 @@ const CartButton = () => {
   <div>
       <button>-</button>
       <p className="count-item">{count}</p>
-      <button>+</button>
+      <button>+=Add to Cart</button>
   </div>
   </>;
 };

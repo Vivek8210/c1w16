@@ -6,7 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.allelement{
+  
+  
+  
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
